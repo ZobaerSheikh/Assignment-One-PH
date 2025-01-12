@@ -435,3 +435,71 @@ table {
   margin-bottom: 24px;
 }
  
+
+/* Main Section Five */
+
+.main-section-five {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.main-section-five h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main-section-five p {
+  margin-bottom: 20px;
+  /* text-align: justify; */
+  opacity: .8;
+}
+
+.donation-boxes {
+  display: flex;
+  /* gap: 1px; */
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.donation-amount-box {
+  background-color: white;
+  padding: 40px 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  cursor: pointer;
+  transition: .25s ease-in;
+}
+
+.donation-amount-box:hover {
+  background-color: rgba(198, 228, 214, 1);
+  transition: .25s ease-in;
+}
+
+.donation-amount-box h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* THIS BOTTOM COMMENT SECTION IS UNNECCESSARY IN MY OPINION, UNCOMMENT AND CHECK IT OUT IF YOU WANT TO */
+/* #selected-by-default {
+  background-color: rgba(198, 228, 214, 1);
+} */
+
+#custom-donation {
+  margin-bottom: 10px;
+}
+
+#custom-donation input{
+  width: 1150px;
+  padding: 20px 40px;
+}
+
+#custom-donation input[placeholder] {
+  text-align: center;
+  opacity: .5;
+  font-size: 20px;
+}
