@@ -117,6 +117,259 @@ nav {
   /* Main Section */
   
  
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* margin-top: 24px; */
+}
+
+/* Main Section One */
+
+.main-section-one {
+  display: flex;
+  flex-direction: column;
+  /* width: 1280px; */
+  text-align: left;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.main-section-one-title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 302px;
+  height: 244px;
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  transition: .5s ease-in;
+}
+
+.card:hover {
+  background-color: #51ecc52f;
+  cursor: pointer;
+  transition: .5s ease-out;
+}
+
+.card img {
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-bottom: 12px;
+}
+
+.card p {
+  line-height: 1.3;
+  opacity: .5;
+}
+
+/* Main Section Two */
+
+.main-section-two {
+  display: flex;
+  flex-direction: column;
+  /* width: 1280px; */
+  text-align: left;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.main-section-two-title h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main-section-two-description p {
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.cards-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.blue-card, .green-card, .gold-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px;
+  width: 410px;
+  height: 325px;
+  border-radius: 16px;
+}
+
+.blue-card p, .green-card p, .gold-card p {
+  opacity: 0.5;
+}
+
+.blue-card img, .green-card img, .gold-card img {
+  width: 64px;
+}
+
+.blue-card {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.green-card {
+background-color: rgba(198, 228, 214, 1);
+}
+
+.gold-card {
+  background-color: rgba(247, 235, 207, 1);
+}
+
+.blue-card-btn, .green-card-btn, .gold-card-btn {
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+}
+
+.blue-card-btn {
+  background-color: #5490F5;
+}
+
+.blue-card-btn:hover {
+  background-color: #125cdb;
+  transition: .4s ease-in-out;
+}
+
+.green-card-btn {
+  background-color: #09A15C;
+}
+
+.green-card-btn:hover {
+  background-color: #047e47;  
+  transition: .4s ease-in-out;
+}
+
+.gold-card-btn {
+  background-color: #FFC239;
+}
+
+.gold-card-btn:hover {
+  background-color: #e08700;
+  transition: .4s ease-in-out;
+}
+
+/* Main Section Two Quote */
+
+.main-section-two-quote {
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2px; */
+  background: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  background-color: white;
+  padding: 48px 24px;
+  border-radius: 16px;
+}
+
+.main-section-two-quote p {
+  opacity: .8;
+  color: rgba(14, 14, 14, 0.8);
+  line-height: 1.3;
+}
+
+.main-section-two-quote .quote-author {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.main-section-two-quote .quote-author-position {
+  opacity: .5;
+  margin-top: 4px;
+}
+
+/* Main Section Three */
+
+.main-section-three {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.main-section-three h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.main-section-three-survey {
+  padding: 32px;
+  /* height: 310px; */
+  background-color: #fff;
+  width: 1280px;
+  border-radius: 16px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+}
+
+.table-header {
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 20px;
+  background-color: rgba(198, 228, 214, 1);
+
+}
+
+.table-header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-header-row td {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.table-border, .table-border2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+  border-right: 1px solid rgba(0, 0, 0, 0.397);
+  border-left: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 20px;
+  width: 90%;
+}
+
+.table-border {
+  font-weight: 600;
+}
+
+.table-border2 select{
+  margin: 10px 36px;
+  padding: 10px 15px;
+  background-color: rgba(198, 228, 214, 1);
+  border: 2px solid rgba(0, 0, 0, 0.397)  ;
+  border-radius: 4px; 
+  font-weight: bold;
+}
   
 
  
